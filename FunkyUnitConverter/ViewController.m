@@ -28,6 +28,7 @@
     float heightEverestBaseCamp = 16900.3;
     
     float travelDistance = heightEverest - heightEverestBaseCamp;
+    travelDistance = travelDistance - 1000;
 }
 
 - (void)didReceiveMemoryWarning {
