@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"hello world");
-    
     int x = 5;
     int y = 20;
     int z = -2;
+    
+    NSLog(@"x value: %i, y value: %i, z value: %i", x, y, z);
     
     int addition = x + y;
     int multiplication = y * z;
@@ -31,6 +31,8 @@
     
     float travelDistance = heightEverest - heightEverestBaseCamp;
     travelDistance = travelDistance - 1000;
+    
+    NSLog(@"travelDistance value: %f", travelDistance);
 }
 
 - (void)didReceiveMemoryWarning {
