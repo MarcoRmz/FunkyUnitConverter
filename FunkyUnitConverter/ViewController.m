@@ -16,12 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    //X variable type integer
-    int x;
-    //X is assigned value 5
-    x = 5;
+    int x = 5;
+    int y = 20;
+    int z = -2;
+    
+    float heightEverestBaseCamp = 16900.3;
 }
 
 - (void)didReceiveMemoryWarning {
