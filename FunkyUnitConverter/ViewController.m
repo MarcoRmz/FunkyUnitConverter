@@ -21,7 +21,13 @@
     int y = 20;
     int z = -2;
     
+    int addition = x + y;
+    int multiplication = y * z;
+    
+    float heightEverest = 29029;
     float heightEverestBaseCamp = 16900.3;
+    
+    float travelDistance = heightEverest - heightEverestBaseCamp;
 }
 
 - (void)didReceiveMemoryWarning {
